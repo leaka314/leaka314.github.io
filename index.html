@@ -248,7 +248,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/11/28/git dev分支合并到test/" itemprop="url">Untitled</a></h1>
+                <a class="post-title-link" href="/2018/11/28/git dev分支合并到test/" itemprop="url">git dev分支合并到test</a></h1>
         
 
         <div class="post-meta">
@@ -300,9 +300,8 @@
       
         
           
-            <h1 id="git-将dev代码合并到test"><a href="#git-将dev代码合并到test" class="headerlink" title="git-将dev代码合并到test"></a>git-将dev代码合并到test</h1><ol>
-<li>在dev分支上刚开发完项目，执行以下命令：</li>
-</ol>
+            <ul>
+<li><p>在dev分支上刚开发完项目，执行以下命令：</p>
 <ul>
 <li><p>git add</p>
 </li>
@@ -311,25 +310,22 @@
 <li><p>git push -u origin dev</p>
 </li>
 </ul>
-<ol start="2">
-<li>切换到test分支</li>
-</ol>
-<ul>
-<li>git pull origin test</li>
-</ul>
-<ol start="3">
-<li>把dev合并到test</li>
-</ol>
+</li>
+<li><p>切换到test分支</p>
+<p>  *git pull origin test</p>
+</li>
+<li><p>把dev合并到test</p>
 <ul>
 <li>git merge dev</li>
 </ul>
-<ol start="4">
-<li>查看状态及提交到远程test</li>
-</ol>
+</li>
+<li><p>查看状态及提交到远程test</p>
 <ul>
 <li><p>git status</p>
 </li>
 <li><p>git push origin test</p>
+</li>
+</ul>
 </li>
 </ul>
 
